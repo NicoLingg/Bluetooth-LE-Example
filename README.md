@@ -33,7 +33,7 @@ And if you are interested in learning more about Bluetooth LE make sure you chec
 
 Of course you can use a different sensor or no sensor at all and simulate a temperature measurement by sending random numbers via Bluetooth to the Qt application.
 
-In the "Qt-Application" folder you can find two versions of the Qt app, one with plot display and one without (for those who don’t have QWTPlot installed). If you use the version with plots, please make sure you've installed QWTPlot correctly. QWTPlot can be found here: http://qwt.sourceforge.net/index.html
+Please make sure you've installed QWTPlot correctly. QWTPlot can be found here: http://qwt.sourceforge.net/index.html
 
 In the "Arduino" folder you can find the Arduino sketch for this example. Please download and install the two following Adafruit libraries:
 - Adafruit_BluefruitLE_nRF51:  
@@ -41,6 +41,27 @@ https://learn.adafruit.com/introducing-the-adafruit-bluefruit-spi-breakout/softw
 - Adafruit_SHT31:   
 https://learn.adafruit.com/adafruit-sht31-d-temperature-and-humidity-sensor-breakout/wiring-and-test
 
+### Hardware Setup
+For the UART Bluefruit LE UART board please use the following pinout:
+
+Bluefruit LE UART | Arduino Uno
+------------------|------------
+VIN               | 3.3V 
+GND               | GND
+RTS               | 8
+RXI               | 9
+TXO               | 10
+CTS               | 11
+MODE              | 12
+
+If you are using the SHT31 please see pinout below:   
+
+SHT31 Sensor  | Arduino Uno
+--------------|------------
+VIN           | 5V 
+GND           | GND
+SCL           | SCL
+SDA           | SDA
 
 ### Step by Step Instructions
 1. Download "Bluetooth LE UART Example" repository
