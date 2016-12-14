@@ -38,7 +38,7 @@
 ** $QT_END_LICENSE$
 **
 ****************************************************************************/
-//Thia class was written by Qt and is part of the QtBluetooth module of the Qt Toolkit
+
 #ifndef DEVICEINFO_H
 #define DEVICEINFO_H
 
