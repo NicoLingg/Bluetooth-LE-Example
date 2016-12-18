@@ -92,6 +92,12 @@ Let me know if you have any questions!
 
 ************************************************************************
 
+# Video
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/qy3yA00mp0Q/0.jpg)](https://www.youtube.com/watch?v=qy3yA00mp0Q)
+
+************************************************************************
+
 # License
 
 See the [LICENSE](LICENSE) file for license rights and limitations (MIT).
